@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drone Kompanier i Afrika</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #f9f8f4;
+      margin: 0;
+      padding: 0;
+      color: #111827;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: darkgreen;
+      color: #f8fafc;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 2rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 5rem;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #1e3a8a;
+      font-size: 3rem;
+      border-bottom: 3px solid #2563eb;
+      display: inline-block;
+      padding-bottom: 0.25rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Carousel container */
+    .carousel {
+      position: relative;
+      overflow: hidden;
+      height: 400px;
+      margin-bottom: 1rem;
+      color: white;
+    }
+
+    .carousel-inner {
+      display: flex;
+      transition: transform 0.4s ease-in-out;
+      width: 100%;
+      height: 100%;
+    }
+
+    .carousel-item {
+      flex: 0 0 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1.5rem;
+      background-size: cover;
+      background-position: center;
+      box-sizing: border-box;
+      position: relative;
+    }
+
+    /* Dark overlay for text readability */
+    .carousel-item::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 0;
+    }
+
+    .carousel-item p {
+      position: relative;
+      z-index: 1;
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin-bottom: 3rem;
+    }
+
+    /* Link inside carousel */
+    .carousel-link {
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #2563eb;
+      color: white;
+      text-decoration: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      font-weight: bold;
+      z-index: 2;
+      transition: background-color 0.2s ease;
+    }
+
+    .carousel-link:hover {
+      background-color: #1e3a8a;
+    }
+
+    /* Carousel buttons */
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(37, 99, 235, 0.8);
+      color: white;
+      border: none;
+      padding: 0.4rem 0.7rem;
+      cursor: pointer;
+      border-radius: 4px;
+      z-index: 2;
+    }
+
+    .carousel-btn.prev {
+      left: 10px;
+    }
+
+    .carousel-btn.next {
+      right: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f1f5f9;
+      color: #64748b;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>Medical Drone Companies in Africa</header>
+
+  <main>
+    <!-- ZIPLINE -->
+    <section>
+      <h2>Zipline</h2>
+      <div class="carousel" data-carousel>
+        <div class="carousel-inner">
+          <div class="carousel-item" style="background-image: url('Pictures/ZiplineDrones.webp');">
+            <p>Zipline leverer blod og vaksiner til avsidesliggende områder i Ghana og Rwanda ved hjelp av autonome droner.</p>
+            <a class="carousel-link" href="https://www.flyzipline.com" target="_blank">Visit Zipline Website</a>
+          </div>
+          <div class="carousel-item" style="background-image: url('Pictures/ZiplineDelivery.webp');">
+            <p>Deres operasjoner revolusjonerte logistikk ved å kutte leveringstider fra timer til minutter.</p>
+            <a class="carousel-link" href="https://www.flyzipline.com" target="_blank">Visit Zipline Website</a>
+          </div>
+          <div class="carousel-item" style="background-image: url('Pictures/ZiplineHappy.webp');">
+            <p>Zipline-dronene flyr over 300 000 km per måned, og bidrar til å redde utallige liv.</p>
+            <a class="carousel-link" href="https://www.flyzipline.com" target="_blank">Visit Zipline Website</a>
+          </div>
+        </div>
+        <button class="carousel-btn prev">❮</button>
+        <button class="carousel-btn next">❯</button>
+      </div>
+    </section>
+
+    <!-- BLOODWING -->
+    <section>
+      <h2>BloodWing</h2>
+      <div class="carousel" data-carousel>
+        <div class="carousel-inner">
+          <div class="carousel-item" style="background-image: url('Pictures/SANBS_VTOL_Jerry.webp');">
+            <p>BloodWing er en medisinsk droneinitiativ som fokuserer på å levere kritiske blodforsyninger til afrikanske nasjoner.</p>
+            <a class="carousel-link" href="https://sanbs.org.za" target="_blank">Visit BloodWing Website</a>
+          </div>
+          <div class="carousel-item" style="background-image: url('Pictures/BloodwingDelivery.webp');">
+            <p>Selskapet samarbeider med sykehus og helsemyndigheter for å sikre rask, trygg og pålitelig blodlevering til avsidesliggende klinikker.</p>
+            <a class="carousel-link" href="https://sanbs.org.za" target="_blank">Visit BloodWing Website</a>
+          </div>
+          <div class="carousel-item" style="background-image: url('Pictures/blood20donate.webp');">
+            <p>BloodWing har som mål å redusere mødredødelighet og støtte akutthelsetjenester med on-demand drone logistikk.</p>
+            <a class="carousel-link" href="https://sanbs.org.za" target="_blank">Visit BloodWing Website</a>
+          </div>
+        </div>
+        <button class="carousel-btn prev">❮</button>
+        <button class="carousel-btn next">❯</button>
+      </div>
+    </section>
+
+    <!-- VILLAGEREACH -->
+    <section>
+      <h2>VillageReach</h2>
+      <div class="carousel" data-carousel>
+        <div class="carousel-inner">
+          <div class="carousel-item" style="background-image: url('Pictures/people-inspecting-drone.webp');">
+            <p>VillageReach er en ideell organisasjon som jobber for å transformere helseforsyningskjeder i Afrika.</p>
+            <a class="carousel-link" href="https://www.villagereach.org" target="_blank">Visit VillageReach Website</a>
+          </div>
+          <div class="carousel-item" style="background-image: url('Pictures/Happyvillagereach.webp');">
+            <p>De bruker droneteknologi i samarbeid med myndighetene for å levere vaksiner, medisiner og laboratorieprøver effektivt.</p>
+            <a class="carousel-link" href="https://www.villagereach.org" target="_blank">Visit VillageReach Website</a>
+          </div>
+          <div class="carousel-item" style="background-image: url('Pictures/1st-email-photo-scaled-e1648228907763.webp');">
+            <p>VillageReach fokuserer på bærekraft og rettferdighet, og sikrer helsetjenester til underbetjente samfunn.</p>
+            <a class="carousel-link" href="https://www.villagereach.org" target="_blank">Visit VillageReach Website</a>
+          </div>
+        </div>
+        <button class="carousel-btn prev">❮</button>
+        <button class="carousel-btn next">❯</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2025 Medical Drone Info | Built for educational purposes</footer>
+
+  <script>
+    // Simple carousel logic for all sections
+    document.querySelectorAll('[data-carousel]').forEach(carousel => {
+      const inner = carousel.querySelector('.carousel-inner');
+      const items = carousel.querySelectorAll('.carousel-item');
+      const prev = carousel.querySelector('.prev');
+      const next = carousel.querySelector('.next');
+      let index = 0;
+
+      function updateCarousel() {
+        inner.style.transform = `translateX(-${index * 100}%)`;
+      }
+
+      prev.addEventListener('click', () => {
+        index = (index === 0) ? items.length - 1 : index - 1;
+        updateCarousel();
+      });
+
+      next.addEventListener('click', () => {
+        index = (index === items.length - 1) ? 0 : index + 1;
+        updateCarousel();
+      });
+    });
+  </script>
+</body>
+</html>
